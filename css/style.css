@@ -1,0 +1,924 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Josefin Light Italic";
+    src: url("../fonts/JosefinSans-LightItalic.ttf");
+}
+
+.imgcomida1{
+    width: 462px;
+    height: 375px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida2{
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida3{
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 267px;
+    padding-top: 0px;
+    margin-top: 50px;
+    margin-left: 500px;
+    box-shadow: 0 0 30px #f3eb7ab6;;
+}
+
+.imgcomida4{
+    width: 480px;
+    height: 380px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida5{
+    width: 500px;
+    height: 420px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida6{
+    width: 432px;
+    height: 410px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida7{
+    width: 500px;
+    height: 333px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida8{
+    width: 500px;
+    height: 326px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida9{
+    width: 364px;
+    height: 364px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida10{
+    width: 500px;
+    height: 398px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida11{
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida12{
+    width: 575px;
+    height: 350px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida13{
+    width: 560px;
+    height: 325px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida14{
+    width: 500px;
+    height: 403px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.imgcomida15{
+    width: 680px;
+    height: 408px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.ingredientes{
+    text-align: center;
+    color: rgb(194, 181, 126);    
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Josefin Light Italic";
+    text-shadow: 0 0 30px #f3eb7ab6;
+}
+
+
+.ingredientestitulo{
+    text-align: center;
+    color: rgb(194, 181, 126);  
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Josefin Light Italic";
+    text-shadow: 0 0 30px #f3eb7ab6;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.pasos{
+    text-align: left;
+    color: rgb(194, 181, 126);  
+    line-height: 30px;
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: "Josefin Light Italic";
+    text-shadow: 0 0 30px #f3eb7ab6;
+}
+
+a:hover{
+    color: #fcd641;
+    text-shadow: 0 0 50px #faed34;
+}
+
+.time{
+    text-align: center;
+    color: rgb(190, 182, 145);
+    font-size: 30px;
+    text-shadow: 0 0 30px #f3eb7ab6;
+    margin-top: 50px;
+}
+
+.sierra{
+    box-shadow: 0 0 40px rgba(243, 230, 156, 0.555);
+    transition: transform .2s;
+}
+
+.sierra:hover{
+    transform: scale(1.1)
+}
+
+.costa{
+    box-shadow: 0 0 40px rgba(243, 230, 156, 0.555);
+    transition: .2s;
+}
+
+.costa:hover{
+    transform: scale(1.1);
+}
+
+.oriente{
+    box-shadow: 0 0 40px rgba(243, 230, 156, 0.555);
+    transition: .2s;
+}
+
+.oriente:hover{
+    transform: scale(1.1);
+}
+
+
+body{
+    background-image: url(../assets/img/fondo.JPG);
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../assets/img/fondo.JPG");
+    background-repeat: repeat-y;
+    overflow-x: hidden;
+}
+
+.pie{
+    color: #F4DB7A;
+    text-decoration: none;
+}
+
+.infopie{
+    display: grid;
+    padding-top: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 50px;
+    font-size: 25px;
+    font-family: "Josefin Light Italic";
+    line-height: 50px;
+
+}
+
+.navegacion li{
+    list-style-type: none;
+}
+
+.navegacion1{
+    padding-left: 0px;
+}
+
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 100px;
+    margin-top: 0px;
+}
+
+.navbar2 li{
+    padding-right: 50px;
+    text-decoration: none;
+    color: #F4DB7A;
+    font-family: "Josefin Light Italic";
+    text-transform: uppercase;
+}
+
+.navbar2 li a{
+    text-decoration: none;
+    color: #F4DB7A;
+}
+
+.navbar{
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imgreceta{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloreceta{
+    text-align: center;
+    background-color: rgba(253, 239, 111, 0.315);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Josefin Light Italic";
+    font-weight:800;
+    color: rgb(190, 182, 145);
+    letter-spacing: 10px;
+    margin-top: 30px;
+}
+
+.recregion{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-family: "Josefin Light Italic";
+    text-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.postitulo{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 50px;
+    font-family: "Josefin Light Italic";
+    text-transform: uppercase;
+    text-shadow: 0 0 30px #f3eb7ab6;
+}
+
+.historia{
+    text-align: center;
+    line-height: 90px;
+    background-color: rgba(243, 235, 165, 0.062);
+    margin: 50px;
+    font-size: 50px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: "Josefin Light Italic";
+}
+
+.insta{
+    height: 30px;
+    margin-bottom: 10px;  
+    padding-bottom: 6px;   
+    transition: .2s;
+}
+
+.insta:hover{
+    transform: scale(1.5);
+}
+
+.face{
+    margin: 20px;
+    width: 30px;
+    height: 30px;  
+    transition: .2s;
+}
+
+.face:hover{
+    transform: scale(1.5);
+}
+
+.tiraimg{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.img1{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 20px rgba(247, 216, 77, 0.651);
+    transition: .3s;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.img2{
+    margin: 20px;
+    width: 250px;
+    height: 250px;   
+    box-shadow: 0 0 20px rgba(247, 216, 77, 0.651);
+    transition: .3s;
+}
+
+.img2:hover{
+    transform: scale(1.1);
+}
+
+.img3{
+    margin: 20px;
+    width: 250px;
+    height: 250px;  
+    box-shadow: 0 0 20px rgba(247, 216, 77, 0.651);   
+    transition: .3s;
+}
+
+.img3:hover{
+    transform: scale(1.1);
+}
+
+
+.img4{
+    margin: 20px;
+    width: 250px;
+    height: 250px;   
+    box-shadow: 0 0 20px rgba(247, 216, 77, 0.651);
+    transition: .3s;
+}
+
+.img4:hover{
+    transform: scale(1.1);
+}
+
+.img5{
+    margin: 20px;
+    width: 250px;
+    height: 250px; 
+    box-shadow: 0 0 20px rgba(247, 216, 77, 0.651);    
+    transition: .3s;
+}
+
+.img5:hover{
+    transform: scale(1.1);
+}
+
+.video {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 90px;
+}
+
+
+
+.regiones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+    column-gap: 100px;
+}
+
+.logo{
+    height: 100px;
+    margin: 0px;
+    padding-left: 30px;
+    transition: .3s;
+}
+
+.logo:hover{
+    transform: scale(1.1)
+}
+
+.navbar li{
+    display: inline;
+    justify-content: center;
+    margin: 60px;
+}
+
+.navpie{
+    text-decoration: none;
+}
+
+#ir_al_top_boton{
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 25px;
+    background-color: #f4dc7a63;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+#ir_al_top_boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.indicador_contenedor{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 7%;
+    z-index: 1001;
+}
+
+.indicador_scroll{
+    height: 100%;
+    width: 0;
+    background-color: aliceblue;
+}
+
+@media (max-width: 1440px){
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar li{
+    display: inline;
+    justify-content: center;
+    margin: 120px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+.navbar ul{
+    padding-left: 30px;
+}
+
+.regiones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90%;
+    margin: 100px;
+    padding-bottom: 100px;
+}
+
+.img1{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.img2{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.img3{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.img4{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.img5{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.tiraimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+
+body{
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+}
+
+
+
+@media (max-width: 768px){
+
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+        margin: 0px;
+    }
+
+    .logo{
+        padding-left: 350px;
+    }
+
+    .regiones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        margin-left: 120px;
+    }
+
+
+    .navbar li{
+        display: inline;
+        justify-content: center;
+        margin: 20px;
+        margin-top: 60px;
+    }
+
+    .sierra{
+        width: 200px;
+        height: 120px;
+    }
+
+    .costa{
+        width: 200px;
+        height: 120px;
+    }
+
+    .oriente{
+        width: 200px;
+        height: 120px;
+    }
+
+
+
+    .img1{
+        margin: 15px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .img2{
+        margin: 15px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .img3{
+        margin: 15px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .img4{
+        margin: 15px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .img5{
+        margin: 15px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .tiraimg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+        margin-left: 40px;
+    }
+
+    iframe{
+        width: 700px;
+        height: 500px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .video{
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 125px;
+    }
+
+    .infopie{
+        display: grid;
+        grid-template-columns: 500px 200px 300px;
+    }
+
+    .recregion{
+        padding-left: 270px;
+    }
+
+    .tituloreceta{
+        margin-left: 270px;
+    }
+
+    .imgreceta{
+        margin-left: 270px;
+    }
+
+    .time{
+        margin-left: 250px;
+    }
+
+    .ingredientestitulo{
+        margin-left: 270px;
+    }
+
+    .ingredientes{
+        margin-left: 260px;
+        font-size: 27px;
+    }
+
+    .pasos{
+        margin-left: 300px;
+        font-size: 27px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .imgcomida3{
+        margin-left: 280px;
+    }
+}
+
+@media (max-width: 320px){
+
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+
+        header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-left: 950px;
+}
+
+.navbar2 li{
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.regiones{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 400px;
+}
+
+.sierra{
+    margin-bottom: 100px;
+    width: 380px;
+    height: 220px;
+}
+
+.costa{
+    margin-bottom: 100px;
+    width: 380px;
+    height: 220px;
+}
+
+.oriente{
+    margin-bottom: 100px;
+    width: 380px;
+    height: 220px;
+}
+
+    .img1{
+        margin: 15px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .img2{
+        margin: 15px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .img3{
+        margin: 15px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .img4{
+        margin: 15px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .img5{
+        margin: 15px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .navbar2 li a{
+        font-size: 20px;
+    }
+
+    .logo{
+        height: 200px;
+        padding-left: 280px;
+    }
+
+    .tiraimg{
+        margin-left: 70px;
+    }
+
+    .secciondevideo{
+        width: 920px;
+        height: 880px;
+    }
+
+    .infopie{
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        height: 300px;
+        font-size: 30px;
+        margin-left: 100px;
+        padding-top: 0px;
+        justify-content: space-between;
+        line-height: 50px;
+        padding-bottom: 0px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .recregion{
+        padding-left: 0px;
+        margin-left: 500px;
+    }
+
+    .regionsierra{
+        display: inline-block;
+    }
+
+    .tituloreceta{
+        width: 700px;
+        margin-left: 250px;
+}
+
+.imgcomida1{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.time{
+    width: 700px;
+}
+
+span{
+    display: flex;
+    align-items: stretch;
+    padding-left: 250px;
+}
+
+.ingredientes li{
+    display: flex;
+    margin-left: 20px;
+    width: 500px;
+    text-align: justify;
+    padding-left: 30px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.pasos li{
+    display: flex;
+    margin-left: 20px;
+    width: 500px;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.ingredientes{
+    margin-left: 300px;
+}
+
+.ingredientestitulo{
+    margin-left: 500px;
+    justify-content: center;
+}
+
+.imgcomida2{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.imgcomida3{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+.imgcomida4{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.imgcomida5{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
