@@ -583,7 +583,7 @@ body{
     }
 
     .logo{
-        padding-left: 300px;
+        padding-left: 350px;
     }
 
     .regiones{
@@ -591,7 +591,7 @@ body{
         flex-direction: row;
         justify-content: space-between;
         justify-items: center;
-        margin-left: 110px;
+        margin-left: 120px;
     }
 
 
@@ -657,6 +657,12 @@ body{
         margin-left: 40px;
     }
 
+    iframe{
+        width: 700px;
+        height: 500px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 
     .video{
         max-width: 100%;
