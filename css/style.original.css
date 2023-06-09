@@ -458,30 +458,30 @@ body{
 
 @media (max-width: 768px){
 
-    body{
+    body{ /*pasado a sass*/
         background-attachment: fixed;
         overflow-x: hidden;
     }
 
-    header{
+    header{ /*pasado a sass*/
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
     }
 
-    .navbar{
+    .navbar{ /*pasado a sass*/
         display: flex;
         flex-direction: row;
         margin: 50px;
         margin: 0px;
     }
 
-    .logo{
+    .logo{ /*pasado a sass*/
         padding-left: 190px;
     }
 
-    .regiones{
+    .regiones{ /*pasado a sass*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -490,7 +490,7 @@ body{
     }
 
 
-    .navbar2 li{
+    .navbar2 li{ /*pasado a sass*/
         display: inline;
         justify-content: center;
         margin: 20px;
@@ -499,54 +499,21 @@ body{
     }
 
 
-    .sierra{
-        width: 200px;
-        height: 120px;
-    }
-
-    .costa{
-        width: 200px;
-        height: 120px;
-    }
-
-    .oriente{
+    .tipoderegion{ /*pasado a sass*/
         width: 200px;
         height: 120px;
     }
 
 
-
-    .img1{
-        margin: 15px;
-        width: 160px;
-        height: 160px;
+    .imgdelatira{ /*pasado a sass*/
+        display: flex;
+        margin: auto;
+        flex-wrap: nowrap;
+        margin-left: 110px;
     }
 
-    .img2{
-        margin: 15px;
-        width: 160px;
-        height: 160px;
-    }
 
-    .img3{
-        margin: 15px;
-        width: 160px;
-        height: 160px;
-    }
-
-    .img4{
-        margin: 15px;
-        width: 160px;
-        height: 160px;
-    }
-
-    .img5{
-        margin: 15px;
-        width: 160px;
-        height: 160px;
-    }
-
-    .tiraimg{
+    .tiraimg{ /*pasado a sass*/
         display: flex;
         margin: auto;
         flex-wrap: nowrap;
@@ -554,58 +521,52 @@ body{
 
     }
 
-    iframe{
-        width: 700px;
-        height: 500px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
 
-    .video{
+    .video{ /*pasado a sass*/
         max-width: 100%;
         max-height: 100%;
         margin-left: 50px;
     }
 
-    .infopie{
+    .infopie{ /*pasado a sass*/
         display: grid;
         grid-template-columns: 300px 300px 300px;
         margin-left: 20px;
     }
 
-    .recregion{
+    .recregion{ /*pasado a sass*/
         padding-left: 270px;
     }
 
-    .tituloreceta{
+    .tituloreceta{ /*pasado a sass*/
         margin-left: 270px;
     }
 
-    .imgreceta{
+    .imgreceta{ /*pasado a sass*/
         margin-left: 270px;
     }
 
-    .time{
+    .time{ /*pasado a sass*/
         margin-left: 250px;
     }
 
-    .ingredientestitulo{
+    .ingredientestitulo{ /*pasado a sass*/
         margin-left: 270px;
     }
 
-    .ingredientes{
+    .ingredientes{ /*pasado a sass*/
         margin-left: 260px;
         font-size: 27px;
     }
 
-    .pasos{
+    .pasos{ /*pasado a sass*/
         margin-left: 300px;
         font-size: 27px;
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .imgcomida3{
+    .imgcomida3{ /*pasado a sass*/
         margin-left: 280px;
     }
 }

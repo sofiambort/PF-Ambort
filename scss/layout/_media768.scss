@@ -1,0 +1,107 @@
+@media (max-width: 768px){
+    main{
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            div{
+                .navbar{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 50px;
+                    margin: 0px;
+                    .logo{
+                        padding-left: 190px;
+                    }   
+                    .navbar2{
+                        li{
+                            display: inline;
+                            justify-content: center;
+                            margin: 20px;
+                            margin-top: 60px;
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+            .regiones{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                justify-items: center;
+                margin-left: 30px;
+                .tipoderegion{
+                    width: 200px;
+                    height: 120px;
+                }
+            }
+            .tiraimg{
+                display: flex;
+                margin: auto;
+                flex-wrap: nowrap;
+                margin-left: 110px;
+                .imgdelatira{
+                    display: flex;
+                    margin: auto;
+                    flex-wrap: nowrap;
+                    margin-left: 110px;
+                }
+                section{
+                    div{
+                        .video{
+                            max-width: 100%;
+                            max-height: 100%;
+                            margin-left: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .infopie{
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            margin-left: 20px;
+        }
+    }
+    main{
+        section{
+            .recregion{
+                padding-left: 270px;
+            }
+        }
+        section{
+            .tituloreceta{
+                margin-left: 270px;
+            }
+            .imgreceta{
+                margin-left: 270px;
+                .imgcomida3{
+                    margin-left: 280px;
+                }
+            }
+            .time{
+                margin-left: 250px;
+            }
+            div{
+                p{
+                    .ingredientestitulo{
+                        margin-left: 270px;
+                    }
+                    .ingredientes{
+                        margin-left: 260px;
+                        font-size: 27px;
+                    }
+                    .pasos{
+                        margin-left: 300px;
+                        font-size: 27px;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
