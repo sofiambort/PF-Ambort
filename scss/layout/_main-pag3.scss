@@ -1,0 +1,103 @@
+main{
+    section{
+        .recregion{
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 30px;
+            font-family: $font-principal;
+            text-shadow: 0 0 30px #f3eb7ab6;
+        }
+    }
+    section{
+            .tituloreceta{
+                text-align: center;
+                background-color: rgba(253, 239, 111, 0.315);
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: $font-principal;
+                font-weight:800;
+                color: rgb(190, 182, 145);
+                letter-spacing: 10px;
+                margin-top: 30px;
+            }
+        }
+        .imgreceta{
+            display: flex;
+            justify-content: center;
+            .imgcomida6{
+                width: 432px;
+                height: 410px;
+                padding-top: 0px;
+                margin-top: 50px;
+                box-shadow: $contorno-de-cada-img-de-receta;
+            }
+            .imgcomida7{
+                width: 500px;
+                height: 333px;
+                padding-top: 0px;
+                margin-top: 50px;
+                box-shadow: $contorno-de-cada-img-de-receta;
+            }
+            .imgcomida8{
+                width: 500px;
+                height: 326px;
+                padding-top: 0px;
+                margin-top: 50px;
+                box-shadow: $contorno-de-cada-img-de-receta;
+            }
+            .imgcomida9{
+                width: 364px;
+                height: 364px;
+                padding-top: 0px;
+                margin-top: 50px;
+                box-shadow: $contorno-de-cada-img-de-receta;
+            }
+            .imgcomida10{
+                width: 500px;
+                height: 398px;
+                padding-top: 0px;
+                margin-top: 50px;
+                box-shadow: $contorno-de-cada-img-de-receta;
+            }
+        }
+        .time{
+            text-align: center;
+            color: rgb(190, 182, 145);
+            font-size: 30px;
+            text-shadow: 0 0 30px #f3eb7ab6;
+            margin-top: 50px;
+        }
+        div{
+                .ingredientestitulo{
+                    text-align: center;
+                    color: rgb(194, 181, 126);  
+                    font-size: 30px;
+                    line-height: 30px;
+                    font-family: $font-principal;
+                    text-shadow: 0 0 30px #f3eb7ab6;
+                    margin-bottom: 30px;
+                    margin-top: 50px;
+                }
+                .ingredientes{
+                    text-align: center;
+                    color: rgb(194, 181, 126);    
+                    list-style-type: none;
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-family: $font-principal;
+                    text-shadow: 0 0 30px #f3eb7ab6;
+                }
+                .pasos{
+                    text-align: left;
+                    color: rgb(194, 181, 126);  
+                    line-height: 30px;
+                    padding-left: 200px;
+                    padding-right: 100px;
+                    font-size: 20px;
+                    font-family: $font-principal;
+                    text-shadow: 0 0 30px #f3eb7ab6;
+                }
+            }
+        }
