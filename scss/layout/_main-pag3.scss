@@ -11,18 +11,18 @@ main{
         }
     }
     section{
-            .tituloreceta{
-                text-align: center;
-                background-color: rgba(253, 239, 111, 0.315);
-                padding-top: 20px;
-                padding-bottom: 20px;
-                font-family: $font-principal;
-                font-weight:800;
-                color: rgb(190, 182, 145);
-                letter-spacing: 10px;
-                margin-top: 30px;
-            }
+        .tituloreceta{
+            text-align: center;
+            background-color: rgba(253, 239, 111, 0.315);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: $font-principal;
+            font-weight:800;
+            color: rgb(190, 182, 145);
+            letter-spacing: 10px;
+            margin-top: 30px;
         }
+    }
         .imgreceta{
             display: flex;
             justify-content: center;

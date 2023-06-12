@@ -10,18 +10,5 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../assets/img/fondo.JPG");
     background-repeat: repeat-y;
     overflow-x: hidden;
-}
-
-@media (max-width: 1440px){
-    body{
-        overflow-x: hidden;
-        background-attachment: fixed;
-    }
-}
-
-@media (max-width: 768px){
-    body{
-        background-attachment: fixed;
-        overflow-x: hidden;
-    }
+    display: grid;
 }

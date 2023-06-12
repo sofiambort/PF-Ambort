@@ -11,7 +11,7 @@ header{
                     .logo{
                         height: 100px;
                         margin: 0px;
-                        padding-left: 30px;
+                        padding-left: 50px;
                         transition: .3s;
                             &:hover{
                                 transform: scale(1.1);
@@ -19,17 +19,18 @@ header{
                     }
                 }
                 .navbar2{
-                    display: flex;
-                    justify-content: space-between;
-                    padding-inline-start: 30px;
-                    margin-top: 20px;
+                    display: grid;
+                    grid-template-columns: 200px 200px 200px 200px 200px;
                     list-style-type: none;
+                    margin-top: 50px;
+                    padding-left: 0px;
                     li{
-                        padding-right: 20px;
+                        padding-right: 0px;
                         text-decoration: none;
                         color: $color-principal-header;
                         font-family: $font-principal;
                         text-transform: uppercase;
+                        padding-inline-start: 100px;
                         a{
                             text-decoration: none;
                             color: $color-principal-header;
