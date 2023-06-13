@@ -1,0 +1,129 @@
+@media (max-width: 320px){
+    header{
+        div{
+            .navbar{
+                display: grid;
+                grid-template-columns: 1fr;
+                a{
+                    .logo{
+                        position: relative;
+                        margin-left: 50px;
+                    }
+                }
+                .navbar2{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    padding-inline-start: 0px;
+                    margin-left: 0px;
+                    column-gap: 20px;
+                    row-gap: 20px;
+                    li{
+                        padding-left: 20px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .regiones{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-top: 50px;
+            row-gap: 30px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            a{
+                .tipoderegion{
+                    width: 170px;
+                    height: auto;
+                }
+            }
+        }
+        .tiraimg{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-top: 50px;
+            margin-bottom: 20px;
+        }
+        section{
+            .imgreceta{
+                .imgcomida1{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida2{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida3{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida4{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida5{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida7{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida8{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida9{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida10{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida11{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida12{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida13{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida14{
+                    width: 280px;
+                    height: auto;
+                }
+                .imgcomida15{
+                    width: 280px;
+                    height: auto;
+                }
+            }
+        }
+    }
+    footer{
+        .infopie{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-top: 30px;
+            row-gap: 50px;
+            margin-top: 10px;
+            .seguinos{
+                .face{
+                    width: 20px;
+                    height: auto;
+                }
+                .insta{
+                    width: 30px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

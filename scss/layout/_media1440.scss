@@ -1,0 +1,22 @@
+@media (max-width: 1440px){
+    main{
+        .regiones{
+            grid-template-columns: 21.875rem 21.875rem 21.875rem;
+            padding-bottom: 300px;
+        }
+        .tiraimg{
+            margin-bottom: 200px;
+            
+        }
+        section{
+            div{
+            }
+        }
+    }
+    footer{
+        .infopie{
+            padding-top: 300px;
+            margin-bottom: 100px;
+        }
+    }
+}

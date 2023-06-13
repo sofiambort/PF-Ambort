@@ -1,19 +1,13 @@
 main{
     .regiones{
-        display: grid;
-        grid-template-columns: 450px 450px 450px;
-        justify-items: center;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        gap: 0px;
-            a{
-                .tipoderegion{
-                    box-shadow: 0 0 40px rgba(243, 230, 156, 0.555);
-                    transition: transform .2s;
-                        &:hover{
-                            transform: scale(1.1)
-                        }
-                }
+        @include grid (grid, 450px 450px 450px, center, 200px, 100px, 0px, 0px);
+        a{
+            .tipoderegion{
+                box-shadow: 0 0 40px rgba(243, 230, 156, 0.555);
+                transition: transform .2s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
             }
         }
     }
@@ -38,7 +32,6 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
         div{
             display: flex;
             justify-content: center;
@@ -49,3 +42,5 @@ main{
             }
         }
     }
+}
+

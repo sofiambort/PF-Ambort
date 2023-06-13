@@ -9,7 +9,39 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../assets/img/fondo.JPG");
   background-repeat: repeat-y;
   overflow-x: hidden;
-  display: grid; }
+  display: grid;
+  height: 100vh; }
+
+@media (max-width: 1440px) {
+  body {
+    overflow-x: hidden;
+    background-attachment: fixed;
+    display: grid; } }
+
+@media (max-width: 1024px) {
+  body {
+    background-attachment: fixed;
+    overflow-x: hidden; } }
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: fixed;
+    overflow-x: hidden; } }
+
+@media (max-width: 425px) {
+  body {
+    background-attachment: fixed;
+    overflow-x: hidden; } }
+
+@media (max-width: 375px) {
+  body {
+    background-attachment: fixed;
+    overflow-x: hidden; } }
+
+@media (max-width: 320px) {
+  body {
+    background-attachment: fixed;
+    overflow-x: hidden; } }
 
 @font-face {
   /*pasado a sass*/
@@ -53,39 +85,39 @@ main .regiones {
   grid-template-columns: 450px 450px 450px;
   justify-items: center;
   padding-top: 200px;
-  padding-bottom: 200px;
-  gap: 0px; }
+  padding-bottom: 100px;
+  gap: 0px;
+  margin-right: 0px; }
   main .regiones a .tipoderegion {
     box-shadow: 0 0 40px rgba(243, 230, 156, 0.555);
     transition: transform .2s; }
     main .regiones a .tipoderegion:hover {
       transform: scale(1.1); }
 
-.tiraimg {
+main .tiraimg {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
   justify-content: center;
   margin-bottom: 300px; }
-  .tiraimg .imgdelatira {
+  main .tiraimg .imgdelatira {
     margin: 20px;
     width: 260px;
     height: 260px;
     box-shadow: 0 0 20px rgba(247, 216, 77, 0.651);
     transition: .3s;
     margin-left: 30px; }
-    .tiraimg .imgdelatira:hover {
+    main .tiraimg .imgdelatira:hover {
       transform: scale(1.1); }
 
-section {
+main section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh; }
-  section div {
+  align-items: center; }
+  main section div {
     display: flex;
     justify-content: center;
     align-items: center; }
-    section div .video {
+    main section div .video {
       max-width: 100%;
       height: auto; }
 
@@ -96,8 +128,9 @@ footer .infopie {
   font-size: 25px;
   font-family: "Josefin Light Italic";
   line-height: 50px;
-  margin-top: 200px;
-  padding-top: 100px; }
+  padding-bottom: 100px;
+  height: 300px;
+  margin-left: 50px; }
   footer .infopie div {
     display: grid; }
     footer .infopie div .pie {
@@ -416,3 +449,110 @@ main div .pasos {
   font-size: 20px;
   font-family: "Josefin Light Italic";
   text-shadow: 0 0 30px #f3eb7ab6; }
+
+@media (max-width: 1440px) {
+  main .regiones {
+    grid-template-columns: 21.875rem 21.875rem 21.875rem;
+    padding-bottom: 300px; }
+  main .tiraimg {
+    margin-bottom: 200px; }
+  footer .infopie {
+    padding-top: 300px;
+    margin-bottom: 100px; } }
+
+@media (max-width: 768px) {
+  main .tiraimg {
+    justify-items: center; }
+    main .tiraimg .imgdelatira {
+      width: 150px;
+      height: 150px; }
+  footer .infopie {
+    padding-bottom: 300px;
+    margin-top: 100px; } }
+
+@media (max-width: 320px) {
+  header div .navbar {
+    display: grid;
+    grid-template-columns: 1fr; }
+    header div .navbar a .logo {
+      position: relative;
+      margin-left: 50px; }
+    header div .navbar .navbar2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding-inline-start: 0px;
+      margin-left: 0px;
+      column-gap: 20px;
+      row-gap: 20px; }
+      header div .navbar .navbar2 li {
+        padding-left: 20px;
+        font-size: 16px; }
+  main .regiones {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 50px;
+    row-gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+    main .regiones a .tipoderegion {
+      width: 170px;
+      height: auto; }
+  main .tiraimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    margin-bottom: 20px; }
+  main section .imgreceta .imgcomida1 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida2 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida3 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida4 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida5 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida7 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida8 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida9 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida10 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida11 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida12 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida13 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida14 {
+    width: 280px;
+    height: auto; }
+  main section .imgreceta .imgcomida15 {
+    width: 280px;
+    height: auto; }
+  footer .infopie {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 30px;
+    row-gap: 50px;
+    margin-top: 10px; }
+    footer .infopie .seguinos .face {
+      width: 20px;
+      height: auto; }
+    footer .infopie .seguinos .insta {
+      width: 30px;
+      height: auto; } }

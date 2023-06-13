@@ -11,4 +11,49 @@ body{
     background-repeat: repeat-y;
     overflow-x: hidden;
     display: grid;
+    height: 100vh;
 }
+
+@media (max-width: 1440px){
+    body{
+        overflow-x: hidden;
+        background-attachment: fixed;
+        display: grid;
+    }
+}
+
+@media (max-width: 1024px){
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 425px){
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 320px){
+    body{
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+}
+
