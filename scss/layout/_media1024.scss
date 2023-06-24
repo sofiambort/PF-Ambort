@@ -1,0 +1,47 @@
+@media (max-width: 1024px){
+    header{
+        width: 1024px;
+        div{
+            .navbar{
+                justify-content: center;
+                a{
+                    .logo{
+                        padding-right: 60px;
+                        padding-left: 30px;
+                    }
+                }
+                .navbar2{
+                    display: grid;
+                    grid-template-columns: 135px 135px 135px 135px 135px;
+                    li{
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        width: 1024px;
+        .regiones{
+            width: 1024px;
+            margin-right: 0px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .tiraimg{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .imgdelatira{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        section{
+            div{
+                video{
+                    width: 1024px;
+                }
+            }
+        }
+    }
+}

@@ -123,40 +123,26 @@ main section {
 
 footer .infopie {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
   font-size: 25px;
   font-family: "Josefin Light Italic";
-  line-height: 50px;
-  padding-bottom: 100px;
-  height: 300px;
-  margin-left: 50px; }
+  line-height: 40px;
+  letter-spacing: 3px;
+  justify-items: center; }
   footer .infopie div {
     display: grid; }
     footer .infopie div .pie {
       color: #F4DB7A;
       text-decoration: none; }
     footer .infopie div ul {
-      list-style-type: none; }
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
       footer .infopie div ul .navpie {
         text-decoration: none; }
         footer .infopie div ul .navpie li {
           text-decoration: none;
           color: #F4DB7A; }
-  footer .infopie .seguinos div {
-    display: flex; }
-    footer .infopie .seguinos div .face {
-      width: 30px;
-      height: 30px;
-      transition: .2s;
-      margin: 1.25rem; }
-      footer .infopie .seguinos div .face:hover {
-        transform: scale(1.5); }
-    footer .infopie .seguinos div .insta {
-      height: 30px;
-      transition: .2s; }
-      footer .infopie .seguinos div .insta:hover {
-        transform: scale(1.5); }
 
 main section {
   display: grid; }
@@ -455,104 +441,283 @@ main div .pasos {
     grid-template-columns: 21.875rem 21.875rem 21.875rem;
     padding-bottom: 300px; }
   main .tiraimg {
-    margin-bottom: 200px; }
+    margin-bottom: 200px;
+    justify-items: center; }
+    main .tiraimg .imgdelatira {
+      width: 220px;
+      height: 220px; }
+  main section div video {
+    width: 1024px;
+    height: auo; }
   footer .infopie {
     padding-top: 300px;
     margin-bottom: 100px; } }
 
-@media (max-width: 768px) {
-  main .tiraimg {
-    justify-items: center; }
-    main .tiraimg .imgdelatira {
-      width: 150px;
-      height: 150px; }
-  footer .infopie {
-    padding-bottom: 300px;
-    margin-top: 100px; } }
-
-@media (max-width: 320px) {
-  header div .navbar {
-    display: grid;
-    grid-template-columns: 1fr; }
-    header div .navbar a .logo {
-      position: relative;
-      margin-left: 50px; }
-    header div .navbar .navbar2 {
+@media (max-width: 1024px) {
+  header {
+    width: 1024px; }
+    header div .navbar {
+      justify-content: center; }
+      header div .navbar a .logo {
+        padding-right: 60px;
+        padding-left: 30px; }
+      header div .navbar .navbar2 {
+        display: grid;
+        grid-template-columns: 135px 135px 135px 135px 135px; }
+        header div .navbar .navbar2 li {
+          padding-left: 30px; }
+  main {
+    width: 1024px; }
+    main .regiones {
+      width: 1024px;
+      margin-right: 0px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding-inline-start: 0px;
-      margin-left: 0px;
-      column-gap: 20px;
-      row-gap: 20px; }
-      header div .navbar .navbar2 li {
-        padding-left: 20px;
-        font-size: 16px; }
-  main .regiones {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 50px;
-    row-gap: 30px;
-    margin-bottom: 50px;
-    margin-top: 50px; }
-    main .regiones a .tipoderegion {
-      width: 170px;
+      grid-template-columns: 1fr 1fr 1fr; }
+    main .tiraimg {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; }
+      main .tiraimg .imgdelatira {
+        width: 200px;
+        height: 200px; }
+    main section div video {
+      width: 1024px; } }
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 768px; }
+    header div .navbar {
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 50px; }
+      header div .navbar a {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-items: center; }
+        header div .navbar a .logo {
+          position: relative;
+          margin-left: 0px;
+          padding-left: 0px; }
+      header div .navbar .navbar2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px; }
+        header div .navbar .navbar2 li {
+          padding-left: 20px;
+          font-size: 16px; }
+  main {
+    width: 768px; }
+    main .regiones {
+      width: 768px; }
+    main section div .postitulo {
+      font-size: 25px; }
+    main section div .historia {
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      line-height: 60px; }
+    main .regiones {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-top: 50px;
+      row-gap: 30px;
+      margin-bottom: 0px;
+      margin-top: 50px;
+      padding-bottom: 50px; }
+      main .regiones a .tipoderegion {
+        width: 170px;
+        height: auto; }
+    main .tiraimg {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding-top: 50px;
+      margin-bottom: 60px;
+      justify-items: center; }
+      main .tiraimg .imgdelatira {
+        width: 120px;
+        height: 120px; }
+    main section .recregion .regionsierra {
+      font-size: 30px; }
+    main section .time {
+      font-size: 20px; }
+    main section div .ingredientestitulo {
+      font-size: 25px; }
+    main section .imgreceta .imgcomida1 {
+      width: 280px;
       height: auto; }
-  main .tiraimg {
+    main section .imgreceta .imgcomida2 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida3 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida4 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida5 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida6 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida7 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida8 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida9 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida10 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida11 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida12 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida13 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida14 {
+      width: 280px;
+      height: auto; }
+    main section .imgreceta .imgcomida15 {
+      width: 280px;
+      height: auto; }
+  footer .infopie {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 50px;
-    margin-bottom: 20px; }
-  main section .imgreceta .imgcomida1 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida2 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida3 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida4 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida5 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida7 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida8 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida9 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida10 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida11 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida12 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida13 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida14 {
-    width: 280px;
-    height: auto; }
-  main section .imgreceta .imgcomida15 {
-    width: 280px;
-    height: auto; }
-  footer .infopie {
-    display: grid;
-    grid-template-columns: 1fr;
     padding-top: 30px;
     row-gap: 50px;
-    margin-top: 10px; }
-    footer .infopie .seguinos .face {
-      width: 20px;
+    margin-top: 80px;
+    justify-items: center;
+    font-size: 18px; } }
+
+@media (max-width: 425px) {
+  header {
+    width: 425px; }
+    header div {
+      width: 425px; }
+      header div nav.navbar {
+        width: 425px;
+        flex-direction: column; }
+        header div nav.navbar a .logo {
+          padding-right: 0px; }
+  main {
+    width: 425px; }
+    main .regiones {
+      width: 425px; }
+    main .tiraimg {
+      grid-template-columns: 1fr 1fr; }
+    main section div .historia {
+      font-size: 25px;
+      line-height: 50px; }
+    main section .recregion .regionsierra {
+      font-size: 25px; }
+    main section .imgreceta .imgcomida1 {
+      width: 200px;
       height: auto; }
-    footer .infopie .seguinos .insta {
-      width: 30px;
-      height: auto; } }
+    main section .imgreceta .imgcomida2 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida3 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida4 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida5 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida6 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida7 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida8 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida9 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida10 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida11 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida12 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida13 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida14 {
+      width: 200px;
+      height: auto; }
+    main section .imgreceta .imgcomida15 {
+      width: 200px;
+      height: auto; }
+    main section .tituloreceta {
+      font-size: 16px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      letter-spacing: 5px; }
+    main section div .ingredientes {
+      font-size: 16px; }
+    main section div .pasos {
+      font-size: 16px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 30px;
+      margin-right: 30px; }
+  footer .infopie {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 375px) {
+  header {
+    width: 375px; }
+    header div {
+      width: 375px; }
+      header div nav.navbar {
+        width: 375px; }
+  main {
+    width: 375px; }
+    main .regiones {
+      width: 375px; } }
+
+@media (max-width: 320px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 320px; }
+    header div {
+      width: 320px; }
+      header div nav.navbar {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 425px;
+        justify-content: center;
+        width: 320px; }
+        header div nav.navbar ul.navbar2 {
+          grid-template-columns: 1fr;
+          row-gap: 30px; }
+  main {
+    width: 320px; }
+    main .regiones {
+      width: 320px; }
+    main .tiraimg {
+      grid-template-columns: 1fr 1fr; }
+      main .tiraimg .imgdelatira {
+        margin: 10px; }
+  footer {
+    width: 320px; }
+    footer .infopie {
+      grid-template-columns: 1fr;
+      width: 320px; } }

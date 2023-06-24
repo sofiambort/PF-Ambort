@@ -1,14 +1,12 @@
 footer{
     .infopie{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: start;
+        grid-template-columns: 1fr 1fr;
         font-size: 25px;
         font-family: $font-principal;
-        line-height: 50px;
-        padding-bottom: 100px;
-        height: 300px;
-        margin-left: 50px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        justify-items: center;
         div{
             display: grid;
             .pie{
@@ -17,6 +15,8 @@ footer{
             }
             ul{
                 list-style-type: none;
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
                 .navpie{
                     text-decoration: none;
                     li{
@@ -26,26 +26,5 @@ footer{
                 }
             }
         }
-        .seguinos{
-            div{
-                display: flex;
-            .face{
-                width: 30px;
-                height: 30px;  
-                transition: .2s;
-                margin: 1.25rem;
-                &:hover{
-                    transform: scale(1.5);
-                }
-            }
-            .insta{
-                height: 30px;
-                transition: .2s;
-                &:hover{
-                    transform: scale(1.5);
-                }
-            }
-        }
     }
-}
 }
