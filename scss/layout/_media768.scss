@@ -5,9 +5,8 @@
         width: 768px;
         div{
             .navbar{
-                flex-direction: row;
-                justify-content: center;
-                column-gap: 50px;
+                display: grid;
+                grid-template-columns: 1fr;
                 a{
                     display: grid;
                     grid-template-rows: 1fr;
@@ -16,14 +15,15 @@
                         position: relative;
                         margin-left: 0px;
                         padding-left: 0px;
+                        padding-right: 0px;
                     }
                 }
                 .navbar2{
                     display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
-                    row-gap: 20px;
+                    grid-template-columns: 100px 100px 100px 100px 100px;
+                    justify-content: center;
                     li{
-                        padding-left: 20px;
+                        padding-left: 0px;
                         font-size: 16px;
                     }
                 }

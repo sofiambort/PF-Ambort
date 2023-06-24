@@ -11,6 +11,11 @@
                         padding-right: 0px;
                     }
                 }
+                ul.navbar2{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    row-gap: 20px;
+                }
             }
         }
     }
